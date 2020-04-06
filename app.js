@@ -10,7 +10,7 @@ sayHello();
 
 function ageCheck (name, age) { 
     if (age<21) {
-    window.alert("Sorry" + name + "you aren't old enough to view this page!" )}
+    window.alert("Sorry " + name + " you aren't old enough to view this page!" )}
 }
 ageCheck ( 
     'Charles', 
@@ -28,8 +28,12 @@ ageCheck(
     'John',
     17);
 
+var vegetables = ['broccoli', 'yellow squash', 'onions', 'green beans', 'carrots', 'spinach', 'mushrooms', 'cauliflower'];
 
-var vegetables = ['broccoli, yellow squash, onions, green beans, carrots, spinach, cauliflower'];
+for(var i = 0; i < vegetables.length; i++ )  {
+    console.log (vegetables [i])
+}
+
 
 var pet = {
     name: 'Lady Fluffington',
